@@ -12,6 +12,7 @@ import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
       fxLayoutAlign.lt-sm=" center"
     >
       <img
+        class="mat-elevation-z2"
         style="border-radius: 50%"
         src="assets/pic.jpg"
         alt="Profile picture"
