@@ -2,10 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'homepage-root',
-  template: `
-    <div fxFill fxLayout="column" fxLayoutAlign="space-around center">
-      <homepage-header></homepage-header>
-    </div>
-  `,
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {}
